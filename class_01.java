@@ -6,18 +6,6 @@ class Cal_area
 	int height;
 	int radius;
 	private double pi=3.14159;
-	void setL(int l)
-	{
-		length=l;
-	}
-	void setW(int w)
-	{
-		width=w;
-	}
-	void setH(int h)
-	{
-		height=h;
-	}
 	void setR(int r)
 	{
 		radius=r;
@@ -42,9 +30,7 @@ public class class_01
 	public static void main(String[] args)
 	{
 		Cal_area ca=new Cal_area();
-		ca.setL(4);
-		ca.setW(5);
-		ca.setH(6);
+		ca.setCube(4,5,6);
 		ca.setR(10);
 		ca.show();
 	}
