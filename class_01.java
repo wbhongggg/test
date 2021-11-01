@@ -33,7 +33,7 @@ class Cal_area
 		System.out.println("半徑="+radius);
 		System.out.println("球型體積="+pi*radius*radius*radius*4/3);
 		System.out.println("長="+length+",寬="+width+",高="+height);
-		System.out.println("立方體表面積="+length*width*6);
+		System.out.println("立方體表面積="+length*width*4+length*height*2);
 	}
 }
 public class class_01
